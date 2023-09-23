@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header
-      className={"w-full fixed top-0 left-0 z-10 bg-[#150E28]"}
+      className={"w-full fixed top-0 left-0 z-50 bg-[#150E28]"}
       style={{
         borderBottom: "1px solid rgba(255, 255, 255, 0.18)",
       }}
