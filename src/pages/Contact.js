@@ -6,11 +6,7 @@ import instagram from "../assets/instagram.svg";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { register, handleSubmit } = useForm();
 
   return (
     <section className="px-7 pt-16 md:p-24 mt-16 flex flex-col md:flex-row items-center justify-center bg-[#150E28]">
